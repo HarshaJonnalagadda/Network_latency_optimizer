@@ -5,7 +5,7 @@
 **Network Latency Optimizer** is a web application that lets you:
 
 - Upload and analyze PCAP files 📂
-- Detect latency anomalies using an **SVM (Support Vector Machine)** model 🤖
+- Detect latency anomalies using an **One-Class SVM** model 🤖
 - Optimize network paths using **Dijkstra's Algorithm** 🛠️
 
 The application has a **React** frontend and a **Django** backend, offering project management, bulk uploads, and detailed analysis reports.
@@ -60,7 +60,7 @@ Network-Latency-Optimizer/
 
 ### Machine Learning 🤖
 
-- **SVM (Support Vector Machine)**: Anomaly detection
+- **One-Class SVM**: Anomaly detection
 - **Dijkstra's Algorithm**: Path optimization
 
 ---
@@ -105,7 +105,7 @@ Network-Latency-Optimizer/
 
 ### 🚨 **Anomaly Detection**
 
-- Uses an **SVM** model to detect abnormal latency patterns in the network data.
+- Uses an **One-Class SVM** model to detect abnormal latency patterns in the network data.
 
 ### 🗺️ **Path Optimization**
 
