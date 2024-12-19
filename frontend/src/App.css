@@ -1,0 +1,115 @@
+/* Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #1e1e2e; /* Dark background */
+  color: #ffffff; /* White text */
+}
+
+/* App Container */
+.App {
+  text-align: center;
+  padding: 20px;
+  min-height: 100vh; /* Ensures full height */
+  background-color: #1e1e2e; /* Same dark background */
+}
+
+/* Header Styling */
+.App-header {
+  background-color: #2e2e3e; /* Slightly lighter dark background for the header */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+/* Container for Main Content */
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #2e2e3e; /* Card background */
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* Buttons */
+button {
+  background-color: #4a90e2;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #357abd;
+}
+
+/* Input Fields */
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #44475a;
+  background-color: #2e2e3e;
+  color: #ffffff;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+  outline: none;
+  border-color: #4a90e2;
+}
+
+/* Upload Section for Spacing */
+.upload-section {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Adds spacing between input and button */
+  margin-bottom: 20px;
+}
+
+/* Upload Button for Clear Visibility */
+.upload-button {
+  background-color: #4a90e2;
+  color: #ffffff;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.upload-button:hover {
+  background-color: #357abd;
+}
+
+.upload-button:disabled {
+  background-color: #6a6a6a;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+/* File Input */
+input[type="file"] {
+  padding: 10px;
+  background-color: #3e3e4e;
+  color: #ffffff;
+  border: 1px solid #44475a;
+  border-radius: 5px;
+}

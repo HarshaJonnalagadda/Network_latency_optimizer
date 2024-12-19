@@ -1,0 +1,198 @@
+/* Container Styling */
+.container {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 25px;
+  background-color: #2e2e3e;
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+  font-family: "Arial", sans-serif;
+  color: #ffffff;
+}
+
+/* Project Titles */
+.project-title {
+  color: #4a90e2;
+  margin-bottom: 5px;
+  font-size: 1.5rem;
+}
+
+/* Project Info */
+.project-info {
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+  color: #d1d1e9;
+}
+
+/* Card Styling */
+.card {
+  background-color: #3e3e4e;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* Upload Section */
+.upload-section {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.upload-section input[type="file"] {
+  background-color: #3e3e4e;
+  color: #ffffff;
+  padding: 10px;
+  border: 1px solid #44475a;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 1rem;
+}
+
+/* Upload Button */
+.upload-button {
+  background-color: #4a90e2;
+  color: #ffffff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.upload-button:hover {
+  background-color: #357abd;
+  transform: translateY(-2px);
+}
+
+.upload-button:disabled {
+  background-color: #6a6a6a;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* File Table Styling */
+.file-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #3e3e4e;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.file-table th,
+.file-table td {
+  padding: 12px;
+  border-bottom: 1px solid #44475a;
+  text-align: left;
+  color: #d1d1e9;
+}
+
+.file-table th {
+  background-color: #2e2e3e;
+  color: #4a90e2;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.file-table tr:nth-child(even) {
+  background-color: #2e2e3e;
+}
+
+.file-table tr:hover {
+  background-color: #44475a;
+}
+
+/* Delete Button */
+.delete-button {
+  background-color: #ff5555;
+  color: #ffffff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.delete-button:hover {
+  background-color: #ff2222;
+  transform: translateY(-2px);
+}
+
+/* Analyze Button */
+.analyze-button {
+  background-color: #ff6b6b;
+  color: #ffffff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-top: 20px;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.analyze-button:hover {
+  background-color: #e63946;
+  transform: translateY(-2px);
+}
+
+.analyze-button:disabled {
+  background-color: #6a6a6a;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* Back Link */
+.back-link {
+  display: inline-block;
+  color: #4a90e2;
+  margin-top: 20px;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+  color: #357abd;
+}
+
+/* Analysis Results Section */
+.analysis-results {
+  margin-top: 30px;
+}
+
+.analysis-results h3 {
+  color: #4a90e2;
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+}
+
+/* Charts Container */
+.charts {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.chart {
+  background-color: #2e2e3e;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
